@@ -5,7 +5,7 @@
   name: calendar-event-default-name
   text: calendar-event-default-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Effects/day.ogg"
 
 # Базовый ночной фоллбэк
 - type: calendarEvent
@@ -14,7 +14,7 @@
   name: calendar-event-default-night-name
   text: calendar-event-default-night-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Imperial/Medieval/Werewolf/howl-far.ogg"
 
 # ==============================================================================
 # ДНЕВНЫЕ СОБЫТИЯ (Тег: Day)
@@ -27,7 +27,7 @@
   name: calendar-event-sunny-name
   text: calendar-event-sunny-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Effects/day.ogg"
   weight: 20.0
   maxOccurrences: 100 # Дни заполнители не должны иметь ограничений на количество появлений
   minDay: 1 # Могут начинаться сразу же
@@ -42,7 +42,7 @@
   name: calendar-event-rain-name
   text: calendar-event-rain-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Effects/day.ogg"
   weight: 0.0
   minDay: 1
   minOffset: 2
@@ -56,7 +56,7 @@
   name: calendar-event-fair-name
   text: calendar-event-fair-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Effects/day.ogg"
   weight: 10.0 # Базовый вес, если кривой нет
   weightCurve:
     points:
@@ -86,7 +86,7 @@
   name: calendar-event-eclipse-name
   text: calendar-event-eclipse-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Effects/day.ogg"
   weight: 100
   minDay: 7
   maxOccurrences: 1
@@ -105,7 +105,7 @@
   name: calendar-event-clear-night-name
   text: calendar-event-clear-night-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Imperial/Medieval/Werewolf/howl-far.ogg"
   weight: 20.0
   maxOccurrences: 100 # Дни заполнители не должны иметь ограничений на количество появлений
   minDay: 1 # Могут начинаться сразу же
@@ -120,7 +120,7 @@
   name: calendar-event-fog-night-name
   text: calendar-event-fog-night-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Imperial/Medieval/Werewolf/howl-far.ogg"
   weight: 0.0
   minDay: 2
   maxOccurrences: 4
@@ -135,7 +135,7 @@
   name: calendar-event-blood-moon-name
   text: calendar-event-blood-moon-desc
   sound:
-    path: "/Audio/Effects/church_bell1.ogg"
+    path: "/Audio/Imperial/Medieval/Werewolf/howl-far.ogg"
   weight: 1.0
   minDay: 5
   maxOccurrences: 1
